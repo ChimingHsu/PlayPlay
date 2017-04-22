@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PlayPlay</string>
+    <string name="user_icon">MenberInfo</string>
+    <string name="find_court">find_court</string>
+    <string name="btm_nvg_court_text">找球場</string>
+    <string name="btm_nvg_partner_text">找球伴</string>
+    <string name="btm_nvg_notify_text">通知</string>
+    <string name="btm_nvg_more_text">更多</string>
+    <string name="nearby_court">球場附近</string>
+    <string name="nearby_myself">我的附近</string>
+    <string name="friend_list">好友清單</string>
+    <string name="court_near_by_myself">我附近的球場</string>
+    <string name="my_fav_court">我最愛的球場</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
