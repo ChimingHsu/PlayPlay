@@ -11,7 +11,17 @@
     <string name="friend_list">好友清單</string>
     <string name="court_near_by_myself">我附近的球場</string>
     <string name="my_fav_court">我最愛的球場</string>
+    <string name="username">暱稱</string>
+    <string name="info">距離oo球場約xx公里</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--spinner_near_by_court content-->
+    <string-array name="spinner_content_court">
+        <item>我最愛的球場</item>
+        <item>竹南運動公園</item>
+        <item>頭份蟠桃公園</item>
+        <item>下興里新興國小</item>
+    </string-array>
 </resources>
