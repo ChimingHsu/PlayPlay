@@ -17,6 +17,18 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
+
+    <!--listViewItem-->
+    <string name="group">組隊</string>
+    <string name="delete">刪除</string>
+    <string name="alert_title">離開</string>
+
+    <!--alertDialog-->
+    <string name="alert_message">確定要離開?</string>
+    <string name="alert_leave">離開</string>
+    <string name="alert_cancle">取消</string>
+
+
     <!--spinner_near_by_court content-->
     <string-array name="spinner_content_court">
         <item>我最愛的球場</item>

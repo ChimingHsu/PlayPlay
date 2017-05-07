@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
     <item android:title="@string/btm_nvg_court_text"
         android:id="@+id/opt_find_court"
         android:icon="@drawable/ic_action_court"
-        android:showAsAction="ifRoom">
+        app:showAsAction="ifRoom">
     </item>
     <item android:title="@string/btm_nvg_partner_text"
         android:id="@+id/opt_find_partner"
         android:icon="@drawable/ic_action_partner"
-        android:showAsAction="ifRoom">
+        app:showAsAction="ifRoom">
     </item>
     <item android:title="@string/btm_nvg_notify_text"
         android:id="@+id/opt_notify"
         android:icon="@drawable/ic_action_notify"
-        android:showAsAction="ifRoom">
+        app:showAsAction="ifRoom">
     </item>
     <item android:title="@string/btm_nvg_more_text"
         android:id="@+id/opt_more"
         android:icon="@drawable/ic_action_more"
-        android:showAsAction="ifRoom">
+        app:showAsAction="ifRoom">
     </item>
 
 

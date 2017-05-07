@@ -1,20 +1,20 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
     </style>
-
-
+    <!-- MaminActivityToolBar-->
     <style name="ToolBarTheme" parent="@style/ThemeOverlay.AppCompat.Light">
         <item name="android:background">@color/toolbar_bg_color</item>
-        <!--<item name="android:contentInsetStart">0dp</item>-->
-        <!--<item name="android:contentInsetLeft">0dp</item>-->
-        <!--<item name="android:elevation">4dp</item>-->
     </style>
 
+    <style name="CustomActionMode" parent="@style/Widget.AppCompat.ActionMode">
+        <item name="android:background">@color/toolbar_bg_color</item>
+    </style>
 
 </resources>
