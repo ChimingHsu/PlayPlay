@@ -9,12 +9,13 @@
 
     </style>
     <!-- MaminActivityToolBar-->
-    <style name="ToolBarTheme" parent="@style/ThemeOverlay.AppCompat.Light">
+    <style name="ToolBarTheme" parent="@style/Widget.AppCompat.ActionBar">
         <item name="android:background">@color/toolbar_bg_color</item>
     </style>
 
-    <style name="CustomActionMode" parent="@style/Widget.AppCompat.ActionMode">
+    <style name="CustomActionMode" parent="@style/Widget.AppCompat.ActionBar">
         <item name="android:background">@color/toolbar_bg_color</item>
     </style>
+
 
 </resources>

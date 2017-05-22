@@ -29,6 +29,33 @@
     <string name="alert_cancle">取消</string>
 
 
+    <!--SetMemberInfoActivity-->
+    <string name="tw_level">等級</string>
+    <string name="tw_user_id">暱稱</string>
+    <string name="tw_user_height">身高</string>
+    <string name="tw_cm">公分</string>
+    <string name="tw_user_weight">體重</string>
+    <string name="tw_kg">公斤</string>
+    <string name="tw_user_age">年齡</string>
+    <string name="tw_year">歲</string>
+    <string name="tw_user_gender">性別</string>
+    <string name="rb_mem">男生</string>
+    <string name="rb_womem">女生</string>
+    <string name="btn_save">確認儲存</string>
+    <string name="tw_ofense">進攻嗜好</string>
+    <string name="tw_defense">防守習慣</string>
+    <string name="cb_three_point">三分球投射</string>
+    <string name="cb_paint_area">籃下強攻</string>
+    <string name="cb_penetration">切入上籃</string>
+    <string name="cb_middle_range">中距離投射</string>
+    <string name="cb_no_offense">沒進攻嗜好</string>
+    <string name="cb_steal">抄截</string>
+    <string name="cb_box_out">卡位籃板</string>
+    <string name="cb_urgent_deffense">貼身防守</string>
+    <string name="cb_block">蓋火鍋</string>
+    <string name="cb_no_deffense">沒有進攻嗜好</string>
+
+
     <!--spinner_near_by_court content-->
     <string-array name="spinner_content_court">
         <item>我最愛的球場</item>

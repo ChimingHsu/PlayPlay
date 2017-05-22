@@ -19,7 +19,7 @@ import android.widget.ImageView;
  * Created by Chiming Hsu on 2017/5/6.
  */
 
-public class MyCircleImageView extends ImageView {
+public class MyCircleImageView extends android.support.v7.widget.AppCompatImageView {
     private Drawable drawable;
     private int iw_wide = 0;
     private int iw_height = 0;
@@ -41,11 +41,13 @@ public class MyCircleImageView extends ImageView {
     protected void onDraw(Canvas canvas) {
         drawable = getDrawable();
         if (drawable == null) {
+            Log.d("!!!!","drawable == null");
             return;
         }
 
         //先取得MyCircleImageView的長寬
         if (getWidth() == 0 || getHeight() == 0) {
+            Log.d("!!!!","getWidth() == 0 || getHeight() == 0");
             return;
         }
         iw_wide = getWidth();
@@ -54,11 +56,13 @@ public class MyCircleImageView extends ImageView {
         //確認圖片為點陣圖避免轉型失敗
         //Android 支援的檔案類型有 .png (preferred), .jpg (acceptable), .gif (discouraged).
         if (!(drawable instanceof BitmapDrawable)) {
+            Log.d("!!!!","!(drawable instanceof BitmapDrawable)");
             return;
         }
 
         Bitmap orgBmp = ((BitmapDrawable) drawable).getBitmap();
         if (null == orgBmp) {
+            Log.d("!!!!","null == orgBmp");
             return;
         }
 
