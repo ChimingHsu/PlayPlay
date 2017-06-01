@@ -6,7 +6,8 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.chiminghsu.playplay.MainActivity">
+    tools:context="com.example.chiminghsu.playplay.MainActivity"
+    android:fitsSystemWindows="true">
 
     <android.support.v7.widget.Toolbar
         android:layout_width="match_parent"

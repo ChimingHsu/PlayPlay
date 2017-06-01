@@ -3,6 +3,7 @@ package com.example.chiminghsu.playplay;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.design.widget.TabLayout;
@@ -17,6 +18,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
+
+import com.readystatesoftware.systembartint.SystemBarTintManager;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -36,6 +39,23 @@ public class MainActivity extends AppCompatActivity {
         findViews();
         initToolBar();
         initBottomNavigationView();
+        initStatustBar();
+
+    }
+
+    private void initStatustBar() {
+        // create our manager instance after the content view is set
+        SystemBarTintManager tintManager = new SystemBarTintManager(this);
+        // enable status bar tint
+        tintManager.setStatusBarTintEnabled(true);
+        // enable navigation bar tint
+        tintManager.setNavigationBarTintEnabled(true);
+        // set a custom tint color for all system bars
+        tintManager.setTintColor(Color.parseColor("#FFCD6D"));
+//        // set a custom navigation bar resource
+//        tintManager.setNavigationBarTintResource(R.drawable.my_tint);
+//        // set a custom status bar drawable
+//        tintManager.setStatusBarTintDrawable(MyDrawable);
 
     }
 

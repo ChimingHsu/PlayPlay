@@ -54,6 +54,8 @@
     <string name="cb_urgent_deffense">貼身防守</string>
     <string name="cb_block">蓋火鍋</string>
     <string name="cb_no_deffense">沒有進攻嗜好</string>
+    <string name="open_canera">開啟相機</string>
+    <string name="open_album">開啟相簿</string>
 
 
     <!--spinner_near_by_court content-->
