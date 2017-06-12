@@ -1,1 +1,1 @@
-include ':app', 'systemBarTint', ':library'
+include ':app', ':library'
